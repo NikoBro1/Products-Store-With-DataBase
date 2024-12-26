@@ -1,0 +1,22 @@
+.Cart{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1;
+    min-width: 30%;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+.Cart img{
+    width: 100px;
+    display: block;
+    border-radius: 25px;
+}
+
+.Cart h3{
+    font-size: 15px;
+}

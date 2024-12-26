@@ -1,0 +1,14 @@
+.mainDiv{
+    text-align: center;
+}
+
+.input-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+.filteredProducts{
+    display: flex;
+    flex-wrap: wrap;
+
+}
