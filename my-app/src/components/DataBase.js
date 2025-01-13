@@ -1,4 +1,4 @@
-import { getDatabase, ref, remove, set, get, child } from "firebase/database";
+import { ref, remove, set, get, child } from "firebase/database";
 import database from "./FirebaseDB";
 
 export const addToCart = async (product) => {
@@ -36,3 +36,4 @@ export const clearCartProducts = async () => {
     console.error("Error clearing cart:", error);
   }
 };
+
